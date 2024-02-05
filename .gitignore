@@ -1,4 +1,12 @@
-venv/
-__pycache__/
+# macOS
 .DS_Store
 
+# VSCode
+.vscode
+
+# Secrets
+.env
+
+# Python
+venv/
+__pycache__/
