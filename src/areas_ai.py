@@ -60,11 +60,26 @@ def get_ai_response(prompt):
 
 # If the script is run directly, start the Areas AI chatbot.
 if __name__ == "__main__":
-	print("""Hello! I’m Areas AI. How can I help you? (Type "q" to quit.)\n""")
+	print(
+		"""Hello! I’m Areas AI. How can I help you? (Type "q" to quit.)""" +
+		"\n"
+	)
 	while True:
-		user_input = input("You:\n")
+		user_input = input(
+			"You:" +
+			"\n"
+		)
 		if user_input.lower() == "q":
-			print("\nBye!")
+			print(
+				"\n" +
+				"Bye!"
+			)
 			break
 		response = get_ai_response(user_input)
-		print("\nAreas AI:\n" + response + "\n")
+		print(
+			"\n" +
+			"Areas AI:" +
+			"\n" +
+			response +
+			"\n"
+		)
