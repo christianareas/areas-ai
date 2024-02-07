@@ -1,0 +1,15 @@
+annotated-types
+anyio
+certifi
+distro
+h11
+httpcore
+httpx
+idna
+openai
+pydantic
+pydantic_core
+python-dotenv
+sniffio
+tqdm
+typing_extensions
