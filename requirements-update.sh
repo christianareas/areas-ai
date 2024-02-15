@@ -24,7 +24,7 @@ pip check
 
 # Todo: Convert to Python.
 
-# From ChatGPT
+# From ChatGPT:
 # import subprocess
 # import sys
 
@@ -69,4 +69,3 @@ pip check
 
 # if __name__ == "__main__":
 #     main()
-

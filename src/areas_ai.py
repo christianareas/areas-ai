@@ -1,7 +1,7 @@
 # Dependencies.
 from dotenv import load_dotenv
-import os
 from openai import OpenAI
+import os
 from datetime import datetime
 
 # Set the OpenAI API key.
@@ -40,7 +40,7 @@ def enhance_prompt(prompt):
 
 # Get a response from the OpenAI API.
 def get_ai_response(prompt):
-	enhanced_prompt = enhance_prompt(prompt)
+	enhanced_prompt = enhance_prompt(prompt) # This should only be sent once, at the start of the session.
 
 	try:
 		ai_response = client.chat.completions.create(
